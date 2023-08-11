@@ -1,5 +1,5 @@
-# Learning End-to-End Testing with Jest
-This is the repository for the LinkedIn Learning course Learning End-to-End Testing with Jest. The full course is available from [LinkedIn Learning][lil-course-url].
+# Learning End to End Testing with Jest
+This is the repository for the LinkedIn Learning course `Learning End to End Testing with Jest`. The full course is available from [LinkedIn Learning][ LinkedInLearning/end-to-end-testing-with-jest-2883169].
 
 ![Learning End-to-End Testing with Jest][lil-thumbnail-url] 
 
@@ -25,9 +25,19 @@ To resolve this issue:
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+	- Git
+	- Node.js
+	- MongoDB
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+3. Navigate to the location of the folder
+4. Run `npm install` to install dependencies
+5. Rename `.env.example` to `.env` and update the variables accordingly
+6. Run `npm run start` to get the app started on your development environment
+### Seed Data to Database
+To seed data to database run the command `npm run seed`, and to rollback run `npm run seed:rollback`. After seeding, you can login with the following details: `username: admin, password: okay`
+### Running the tests
+To run the tests, run the commannd `npm run test`
+_The tests, test the api endpoints to ensure that they work as expected and return the required response. The output of the test also shows the code coverage_
 
 
 ### Instructor
@@ -40,6 +50,5 @@ Chinyelu Ibute
 
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/chinyelu-ibute).
 
-[lil-course-url]: https://www.linkedin.com/learning/learning-end-to-end-testing-with-jest
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2883169/2883169-1634846529237-16x9.jpg
-
+[lil-course-url]: https://www.linkedin.com/learning/end-to-end-testing-with-jest-2883169
+[lil-thumbnail-url]: http://
